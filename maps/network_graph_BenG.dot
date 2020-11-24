@@ -1,0 +1,98 @@
+digraph network {
+
+// traceroute to loc.gov (104.16.55.16), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "172.25.1.98 (172.25.1.98)";
+"172.25.1.98 (172.25.1.98)" -> "172.25.0.174 (172.25.0.174)";
+"172.25.0.174 (172.25.0.174)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "loc.gov (104.16.55.16)";
+
+// traceroute to rtu.lv (213.175.89.164), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.0.242 (172.25.0.242)";
+"172.25.0.242 (172.25.0.242)" -> "172.25.1.98 (172.25.1.98)";
+"172.25.1.98 (172.25.1.98)" -> "172.25.0.174 (172.25.0.174)";
+"172.25.0.174 (172.25.0.174)" -> "sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)";
+"sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "ae-0.4079.rtsw3.eqch.net.internet2.edu (162.252.70.163)";
+"ae-0.4079.rtsw3.eqch.net.internet2.edu (162.252.70.163)" -> "ae-1.4079.rtsw.eqch.net.internet2.edu (162.252.70.106)";
+"ae-1.4079.rtsw.eqch.net.internet2.edu (162.252.70.106)" -> "ae-2.4079.rtsw2.ashb.net.internet2.edu (162.252.70.75)";
+"ae-2.4079.rtsw2.ashb.net.internet2.edu (162.252.70.75)" -> "ae-2.4079.rtsw.wash.net.internet2.edu (162.252.70.136)";
+"ae-2.4079.rtsw.wash.net.internet2.edu (162.252.70.136)" -> "ae-2.4079.rtsw.wash.net.internet2.edu (162.252.70.136)";
+"ae-2.4079.rtsw.wash.net.internet2.edu (162.252.70.136)" -> "ae-0.4079.rtsw.ashb.net.internet2.edu (162.252.70.128)";
+"ae-0.4079.rtsw.ashb.net.internet2.edu (162.252.70.128)" -> "internet2.mx1.lon.uk.geant.net (62.40.124.44)";
+"internet2.mx1.lon.uk.geant.net (62.40.124.44)" -> "ae1.mx2.tal.ee.geant.net (62.40.98.1)";
+"ae1.mx2.tal.ee.geant.net (62.40.98.1)" -> "ae1.mx1.ham.de.geant.net (62.40.98.61)";
+"ae1.mx1.ham.de.geant.net (62.40.98.61)" -> "ae1.mx1.ham.de.geant.net (62.40.98.61)";
+"ae1.mx1.ham.de.geant.net (62.40.98.61)" -> "ae1.mx2.tal.ee.geant.net (62.40.98.1)";
+"ae1.mx2.tal.ee.geant.net (62.40.98.1)" -> "62.40.98.175 (62.40.98.175)";
+"62.40.98.175 (62.40.98.175)" -> "85.254.88.10 (85.254.88.10)";
+"85.254.88.10 (85.254.88.10)" -> "85.254.88.10 (85.254.88.10)";
+"85.254.88.10 (85.254.88.10)" -> "rtu.lv (213.175.89.164)";
+
+// traceroute to ebay.com (66.135.196.249), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.0.242 (172.25.0.242)";
+"172.25.0.242 (172.25.0.242)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "et-10-3-0-lvs1-bcr1.bb.ebay.com (216.113.190.52)";
+"et-10-3-0-lvs1-bcr1.bb.ebay.com (216.113.190.52)" -> "et-10-3-0-lvs1-bcr1.bb.ebay.com (216.113.190.52)";
+"et-10-3-0-lvs1-bcr1.bb.ebay.com (216.113.190.52)" -> "ebay.com (66.135.196.249)";
+
+// traceroute to archiveofourown.org (104.153.64.122), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.0.242 (172.25.0.242)";
+"172.25.0.242 (172.25.0.242)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "172.25.0.174 (172.25.0.174)";
+"172.25.0.174 (172.25.0.174)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "ae0.mpr2.msp1.us.zip.zayo.com (64.125.30.197)";
+"ae0.mpr2.msp1.us.zip.zayo.com (64.125.30.197)" -> "ae2.er1.iad93.us.zip.zayo.com (64.125.24.9)";
+"ae2.er1.iad93.us.zip.zayo.com (64.125.24.9)" -> "ae2.er1.iad93.us.zip.zayo.com (64.125.24.9)";
+"ae2.er1.iad93.us.zip.zayo.com (64.125.24.9)" -> "128.177.117.102.IDIA-266221-ZYO.zip.zayo.com (128.177.117.102)";
+"128.177.117.102.IDIA-266221-ZYO.zip.zayo.com (128.177.117.102)" -> "128.177.117.102.IDIA-266221-ZYO.zip.zayo.com (128.177.117.102)";
+"128.177.117.102.IDIA-266221-ZYO.zip.zayo.com (128.177.117.102)" -> "archiveofourown.org (104.153.64.122)";
+
+// traceroute to crouton.net (165.227.29.75), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "172.25.0.174 (172.25.0.174)";
+"172.25.0.174 (172.25.0.174)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "mini-b2-link.telia.net (62.115.156.196)";
+"mini-b2-link.telia.net (62.115.156.196)" -> "crouton.net (165.227.29.75)";
+}
