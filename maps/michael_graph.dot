@@ -1,0 +1,23 @@
+digraph network {
+
+// traceroute to naver.com (125.209.222.142), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.0.242 (172.25.0.242)";
+"172.25.0.242 (172.25.0.242)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "ae-5.4079.rtsw.salt.net.internet2.edu (162.252.70.145)";
+"ae-5.4079.rtsw.salt.net.internet2.edu (162.252.70.145)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "lo-0.8.rtsw.losa.net.internet2.edu (64.57.20.255)";
+"lo-0.8.rtsw.losa.net.internet2.edu (64.57.20.255)" -> "lo-0.8.rtsw.losa.net.internet2.edu (64.57.20.255)";
+"lo-0.8.rtsw.losa.net.internet2.edu (64.57.20.255)" -> "39.115.132.134 (39.115.132.134)";
+"39.115.132.134 (39.115.132.134)" -> "58.229.15.178 (58.229.15.178)";
+"58.229.15.178 (58.229.15.178)" -> "58.229.14.69 (58.229.14.69)";
+"58.229.14.69 (58.229.14.69)" -> "naver.com (125.209.222.142)";
+}
