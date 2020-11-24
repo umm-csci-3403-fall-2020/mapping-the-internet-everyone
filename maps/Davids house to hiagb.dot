@@ -1,0 +1,17 @@
+digraph network {
+
+// traceroute to hiagb.com (50.87.253.233), 60 hops max, 60 byte packets
+"David's House" -> "_gateway (192.168.1.1)";
+"_gateway (192.168.1.1)" -> "172.30.24.105 (172.30.24.105)";
+"172.30.24.105 (172.30.24.105)" -> "68-66-73-78.client.mchsi.com (68.66.73.78)";
+"68-66-73-78.client.mchsi.com (68.66.73.78)" -> "po10.mplmn001er1.mchsi.com (68.66.72.70)";
+"po10.mplmn001er1.mchsi.com (68.66.72.70)" -> "mini-b1-link.telia.net (62.115.45.142)";
+"mini-b1-link.telia.net (62.115.45.142)" -> "level3-ic-355312-mini-b1.c.telia.net (62.115.190.221)";
+"level3-ic-355312-mini-b1.c.telia.net (62.115.190.221)" -> "ae-2-3602.edge8.Denver1.Level3.net (4.69.219.74)";
+"ae-2-3602.edge8.Denver1.Level3.net (4.69.219.74)" -> "THE-ENDURAN.edge8.Denver1.Level3.net (4.53.7.174)";
+"THE-ENDURAN.edge8.Denver1.Level3.net (4.53.7.174)" -> "69-195-64-123.unifiedlayer.com (69.195.64.123)";
+"69-195-64-123.unifiedlayer.com (69.195.64.123)" -> "69-195-64-121.unifiedlayer.com (69.195.64.121)";
+"69-195-64-121.unifiedlayer.com (69.195.64.121)" -> "po97.prv-leaf6b.net.unifiedlayer.com (162.144.240.19)";
+"po97.prv-leaf6b.net.unifiedlayer.com (162.144.240.19)" -> "po97.prv-leaf6b.net.unifiedlayer.com (162.144.240.19)";
+"po97.prv-leaf6b.net.unifiedlayer.com (162.144.240.19)" -> "hiagb.com (50.87.253.233)";
+}
