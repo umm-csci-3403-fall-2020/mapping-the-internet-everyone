@@ -1,0 +1,10 @@
+digraph network {
+
+// traceroute to github.com (140.82.114.3), 60 hops max, 60 byte packets
+"David's House" -> "_gateway (192.168.1.1)";
+"_gateway (192.168.1.1)" -> "172.30.24.105 (172.30.24.105)";
+"172.30.24.105 (172.30.24.105)" -> "68-66-73-78.client.mchsi.com (68.66.73.78)";
+"68-66-73-78.client.mchsi.com (68.66.73.78)" -> "po10.mplmn001er1.mchsi.com (68.66.72.70)";
+"po10.mplmn001er1.mchsi.com (68.66.72.70)" -> "mini-b1-link.telia.net (62.115.45.142)";
+"mini-b1-link.telia.net (62.115.45.142)" -> "github.com (140.82.114.3)";
+}
