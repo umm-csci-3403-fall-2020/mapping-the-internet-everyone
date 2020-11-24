@@ -23,3 +23,11 @@ I visited:
 * ed.gov
 * en.wikipedia.org
 * google.fr
+
+## Jaydon
+We visited:
+
+* smile.amazon.com
+* cdc.gov
+* creativecommons.org
+* ual.es
