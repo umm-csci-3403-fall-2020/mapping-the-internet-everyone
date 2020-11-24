@@ -15,3 +15,11 @@ We visited:
 * one.or.the.other
 * stuff.and.nonsense
 * etc.etc.etc.
+
+## Jaydon
+We visited:
+
+* smile.amazon.com
+* cdc.gov
+* creativecommons.org
+* ual.es
