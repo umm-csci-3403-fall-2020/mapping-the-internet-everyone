@@ -1,0 +1,15 @@
+digraph network {
+
+// traceroute to archive.org (207.241.224.2), 60 hops max, 60 byte packets
+"David's House" -> "_gateway (192.168.1.1)";
+"_gateway (192.168.1.1)" -> "172.30.24.105 (172.30.24.105)";
+"172.30.24.105 (172.30.24.105)" -> "68-66-73-78.client.mchsi.com (68.66.73.78)";
+"68-66-73-78.client.mchsi.com (68.66.73.78)" -> "po10.mplmn001er1.mchsi.com (68.66.72.70)";
+"po10.mplmn001er1.mchsi.com (68.66.72.70)" -> "v134.core1.msp1.he.net (216.66.76.245)";
+"v134.core1.msp1.he.net (216.66.76.245)" -> "100ge8-1.core1.den1.he.net (184.105.222.93)";
+"100ge8-1.core1.den1.he.net (184.105.222.93)" -> "100ge0-29.core2.sjc2.he.net (184.105.64.69)";
+"100ge0-29.core2.sjc2.he.net (184.105.64.69)" -> "100ge16-1.core1.sjc2.he.net (184.104.192.213)";
+"100ge16-1.core1.sjc2.he.net (184.104.192.213)" -> "10ge16-1.core1.sfo1.he.net (184.105.213.162)";
+"10ge16-1.core1.sfo1.he.net (184.105.213.162)" -> "internet-archive.ve253.core1.sfo1.he.net (64.71.160.46)";
+"internet-archive.ve253.core1.sfo1.he.net (64.71.160.46)" -> "archive.org (207.241.224.2)";
+}

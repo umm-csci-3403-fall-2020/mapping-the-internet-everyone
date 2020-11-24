@@ -1,0 +1,19 @@
+digraph network {
+
+// traceroute to en.wikipedia.org (208.80.153.224), 60 hops max, 60 byte packets
+"Jacob's Computer" -> "JACOB-DESKTOP.mshome.net (172.24.240.1)";
+"JACOB-DESKTOP.mshome.net (172.24.240.1)" -> "behm-rc-2-te-0-3-0-42-111.ggnet.umn.edu (146.57.48.200)";
+"behm-rc-2-te-0-3-0-42-111.ggnet.umn.edu (146.57.48.200)" -> "behm-ri-1-te-0-0-0-11-111.ggnet.umn.edu (146.57.48.199)";
+"behm-ri-1-te-0-0-0-11-111.ggnet.umn.edu (146.57.48.199)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.129 (172.25.0.129)";
+"172.25.0.129 (172.25.0.129)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.0.242 (172.25.0.242)";
+"172.25.0.242 (172.25.0.242)" -> "172.25.1.98 (172.25.1.98)";
+"172.25.1.98 (172.25.1.98)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "en.wikipedia.org (208.80.153.224)";
+}
